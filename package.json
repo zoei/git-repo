@@ -1,0 +1,27 @@
+{
+  "name": "@zoei/git-repo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "repo/repo",
+  "scripts": {
+    "preinstall": "git clone https://gerrit.googlesource.com/git-repo"
+  },
+  "bin": {
+    "repo": "repo/repo"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zoei/git-repo.git"
+  },
+  "keywords": [
+    "git",
+    "repo",
+    "google"
+  ],
+  "author": "zoei@163.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zoei/git-repo/issues"
+  },
+  "homepage": "https://github.com/zoei/git-repo#readme"
+}
