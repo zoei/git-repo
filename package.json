@@ -1,7 +1,7 @@
 {
-  "name": "@zoei/repo",
-  "version": "1.0.1",
-  "description": "",
+  "name": "git-repo-mgr",
+  "version": "1.0.0",
+  "description": "Google Git Repo",
   "main": "repo/repo",
   "scripts": {
     "preinstall": "git clone -b stable https://gerrit.googlesource.com/git-repo"
